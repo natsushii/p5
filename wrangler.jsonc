@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "royal-poetry-1059",
+	"name": "restless-leaf-0a40",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-09-16",
 	"observability": {
