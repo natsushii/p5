@@ -18,7 +18,7 @@ export interface Env {
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		const data = await this.queryDatabase(env.p6);
-		return new Response.json({message: "Hello World! New change natibramch", dbData: data);
+		return new Response.json({message: "Hello World! New change natibramch", dbData: data});
 	},
 
 	async queryDatabase(db: D1Database){
